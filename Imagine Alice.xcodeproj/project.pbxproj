@@ -61,6 +61,14 @@
 		75168FD2162174F800A4FED1 /* Vector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 75168FCA1620FB9B00A4FED1 /* Vector2D.m */; };
 		75168FD31621751000A4FED1 /* Vector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 75168FCA1620FB9B00A4FED1 /* Vector2D.m */; };
 		75168FD41621765300A4FED1 /* Vector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 75168FCA1620FB9B00A4FED1 /* Vector2D.m */; };
+		75E1D573162988FD009D2C3C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04101DC515E43FEC006FB070 /* SenTestingKit.framework */; };
+		75E1D574162988FD009D2C3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041C976515CF4A5700E70EFC /* UIKit.framework */; };
+		75E1D575162988FD009D2C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041C976715CF4A5700E70EFC /* Foundation.framework */; };
+		75E1D57B162988FD009D2C3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75E1D579162988FD009D2C3C /* InfoPlist.strings */; };
+		75E1D57E162988FD009D2C3C /* IAHistoryPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E1D57D162988FD009D2C3C /* IAHistoryPointTests.m */; };
+		75E1D58316298F20009D2C3C /* IAGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0912915EE692A00FE9410 /* IAGameObject.m */; };
+		75E1D58416298F25009D2C3C /* IAHistoryPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C63731605F87F00763717 /* IAHistoryPoint.m */; };
+		75E1D58516298F28009D2C3C /* Vector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 75168FCA1620FB9B00A4FED1 /* Vector2D.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +128,12 @@
 		6C5C0FC330654685B5035F37 /* Pods-IARuleEngineTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IARuleEngineTests.xcconfig"; path = "Pods/Pods-IARuleEngineTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		75168FC91620FB9B00A4FED1 /* Vector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2D.h; sourceTree = "<group>"; };
 		75168FCA1620FB9B00A4FED1 /* Vector2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector2D.m; sourceTree = "<group>"; };
+		75E1D572162988FD009D2C3C /* IAHistoryPointTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAHistoryPointTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E1D578162988FD009D2C3C /* IAHistoryPointTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IAHistoryPointTests-Info.plist"; sourceTree = "<group>"; };
+		75E1D57A162988FD009D2C3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75E1D57C162988FD009D2C3C /* IAHistoryPointTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAHistoryPointTests.h; sourceTree = "<group>"; };
+		75E1D57D162988FD009D2C3C /* IAHistoryPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAHistoryPointTests.m; sourceTree = "<group>"; };
+		75E1D57F162988FD009D2C3C /* IAHistoryPointTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IAHistoryPointTests-Prefix.pch"; sourceTree = "<group>"; };
 		A42948F85EE34FCFB4A5CABB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		BDBFFFA2781248E8A356B602 /* libPods-IARuleEngineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IARuleEngineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B2998C391441D682F98D3D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +193,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75E1D56E162988FD009D2C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E1D573162988FD009D2C3C /* SenTestingKit.framework in Frameworks */,
+				75E1D574162988FD009D2C3C /* UIKit.framework in Frameworks */,
+				75E1D575162988FD009D2C3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -206,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				04FF96D215D2174200C46F7C /* CocoaLumberjackCustomFormatter */,
+				75E1D576162988FD009D2C3C /* IAHistoryPointTests */,
 				041C976415CF4A5700E70EFC /* Frameworks */,
 				04101DE215E44A19006FB070 /* IABoardTests */,
 				04A0911915EE66CF00FE9410 /* IAGameObjectTests */,
@@ -226,6 +251,7 @@
 				04101DDE15E44A19006FB070 /* IABoardTests.octest */,
 				04A0913615EE965900FE9410 /* IATorpedoTests.octest */,
 				04A0914F15EEB21E00FE9410 /* IARuleEngineTests.octest */,
+				75E1D572162988FD009D2C3C /* IAHistoryPointTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,6 +370,26 @@
 			path = "Imagine Alice/CocoaLumberjackCustomFormatter";
 			sourceTree = "<group>";
 		};
+		75E1D576162988FD009D2C3C /* IAHistoryPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E1D57C162988FD009D2C3C /* IAHistoryPointTests.h */,
+				75E1D57D162988FD009D2C3C /* IAHistoryPointTests.m */,
+				75E1D577162988FD009D2C3C /* Supporting Files */,
+			);
+			path = IAHistoryPointTests;
+			sourceTree = "<group>";
+		};
+		75E1D577162988FD009D2C3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75E1D578162988FD009D2C3C /* IAHistoryPointTests-Info.plist */,
+				75E1D579162988FD009D2C3C /* InfoPlist.strings */,
+				75E1D57F162988FD009D2C3C /* IAHistoryPointTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -438,6 +484,24 @@
 			productReference = 04A0914F15EEB21E00FE9410 /* IARuleEngineTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		75E1D571162988FD009D2C3C /* IAHistoryPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E1D580162988FD009D2C3C /* Build configuration list for PBXNativeTarget "IAHistoryPointTests" */;
+			buildPhases = (
+				75E1D56D162988FD009D2C3C /* Sources */,
+				75E1D56E162988FD009D2C3C /* Frameworks */,
+				75E1D56F162988FD009D2C3C /* Resources */,
+				75E1D570162988FD009D2C3C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IAHistoryPointTests;
+			productName = IAHistoryPointTests;
+			productReference = 75E1D572162988FD009D2C3C /* IAHistoryPointTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -464,6 +528,7 @@
 				04101DDD15E44A19006FB070 /* IABoardTests */,
 				04A0913515EE965900FE9410 /* IATorpedoTests */,
 				04A0914E15EEB21E00FE9410 /* IARuleEngineTests */,
+				75E1D571162988FD009D2C3C /* IAHistoryPointTests */,
 			);
 		};
 /* End PBXProject section */
@@ -508,6 +573,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A0915815EEB21E00FE9410 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E1D56F162988FD009D2C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E1D57B162988FD009D2C3C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +641,19 @@
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
 		04A0914D15EEB21E00FE9410 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		75E1D570162988FD009D2C3C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -661,6 +747,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75E1D56D162988FD009D2C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E1D57E162988FD009D2C3C /* IAHistoryPointTests.m in Sources */,
+				75E1D58316298F20009D2C3C /* IAGameObject.m in Sources */,
+				75E1D58416298F25009D2C3C /* IAHistoryPoint.m in Sources */,
+				75E1D58516298F28009D2C3C /* Vector2D.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -708,6 +805,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				04A0915715EEB21E00FE9410 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75E1D579162988FD009D2C3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E1D57A162988FD009D2C3C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -916,6 +1021,49 @@
 			};
 			name = Release;
 		};
+		75E1D581162988FD009D2C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IAHistoryPointTests/IAHistoryPointTests-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "IAHistoryPointTests/IAHistoryPointTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		75E1D582162988FD009D2C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IAHistoryPointTests/IAHistoryPointTests-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "IAHistoryPointTests/IAHistoryPointTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -972,6 +1120,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		75E1D580162988FD009D2C3C /* Build configuration list for PBXNativeTarget "IAHistoryPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E1D581162988FD009D2C3C /* Debug */,
+				75E1D582162988FD009D2C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
