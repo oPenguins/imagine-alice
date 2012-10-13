@@ -27,7 +27,7 @@ static NSString * const kDefaultObjectName = @"Default Name";
         else 
             _name = [[NSMutableString alloc] initWithString:kDefaultObjectName];
         _absolutePosition = [position copy];
-        _availableMoves = [moves copy];
+        _availableMoves = [[NSMutableArray alloc] initWithArray:[moves copy]];
         _historyOfPositions = [[NSMutableArray alloc] init];
     }
     return self;
