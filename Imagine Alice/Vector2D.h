@@ -1,5 +1,5 @@
 //
-//  Vector2D.m
+//  Vector2D.h
 //  Boids
 //
 //  Created by David Nolen on 11/3/09.
