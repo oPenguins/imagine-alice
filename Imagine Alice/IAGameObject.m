@@ -55,7 +55,7 @@ static NSString * const kDefaultObjectName = @"Default Name";
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"%@: %@", self.name, self.absolutePosition.description];
+    return [NSString stringWithFormat:@"%@\n%@: %@.\nAvailable moves: %@\nHistory:%@", [self class], self.name, self.absolutePosition.description, self.availableMoves.description, self.historyOfPositions.description];
 }
 
 - (void)savePositionToHistory
